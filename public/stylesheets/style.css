@@ -1,0 +1,118 @@
+footer {
+  background-color: #aaa;
+}
+
+.titulo_imagen {
+  font-family: "Oleo Script", cursive;
+}
+
+.p_titulo {
+  font-family: "Scheherazade", serif;
+}
+
+.lista-novedades {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 8%;
+}
+.lista-novedades li {
+  margin: 4px 0;
+  margin-top: 3%;
+}
+.lista-novedades li a {
+  background-color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+  display: block;
+}
+.lista-novedades li a img {
+  width: 100px;
+  height: 50px;
+  filter: grayscale();
+  transition: all 0.2s ease-in-out;
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+  filter: none;
+  margin-right: 1.4rem;
+  opacity: 1;
+}
+
+.navbar-brand {
+  font-family: "Azeret Mono", monospace;
+  font-size: 90%;
+}
+.nav-link {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.nav-link active {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.modal-title {
+  font-family: "Azeret Mono", monospace;
+}
+
+.testimonios {
+  background-color: #dadada;
+  padding-bottom: 4rem !important;
+  text-align: center;
+}
+.testimonio {
+  text-align: center;
+  padding: 50px 20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  font-family: "FontAwesome";
+  font-size: 30px;
+  color: #000;
+}
+.carousel-control-prev-icon:after {
+  content: "\f137";
+}
+.carousel-control-next-icon:after {
+  content: "\f138";
+}
+.carousel-indicators li {
+  background-color: #000;
+}
+.noti_p {
+  font-family: "Scheherazade", serif;
+  font-size: 25px;
+}
+.card {
+  margin-top: 22ch;
+  margin-left: 16ch;
+}
+.card-title {
+  font-family: "Azeret Mono", monospace; 
+}
+#home {
+  background: url(../images/header4.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-height: 600px;
+  max-height: 700px;
+
+  color: white;
+}
+#cono{
+  background: url(../images/header5.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-height: 600px;
+  max-height: 700px;
+
+  color: white;
+}
