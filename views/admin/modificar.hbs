@@ -1,0 +1,27 @@
+<body>
+    <div class="container" style="margin: 5% auto">
+        <div class="col-6 offset-3">
+            <h1>Agregar una nueva noticia</h1>
+            <form action="/admin/novedades/modificar" method="post">
+                <input type="hidden" value="{{novedad.id_novedades}}" name="id_novedades">
+                <div class="input-group input-group-sm mb-3">
+                    <input type="text" class="form-control" value="{{novedad.titulo}}" name="titulo">
+                </div>
+
+                <div class="input-group mb-3">
+                    <textarea type="text" class="form-control" name="subtitulo">{{novedad.subtitulo}}</textarea>
+                </div>
+
+                <div class="input-group input-group-lg">
+                    <textarea type="text" class="form-control" name="cuerpo">{{novedad.cuerpo}}</textarea>
+                </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary" style="margin-left: 280px; margin-top: 10px;">Guardar</button>
+        </div>
+    </div>
+    </form>
+    {{#if error}}
+    <h5>{{message}}</h5>
+    {{/if}}
+</body>
